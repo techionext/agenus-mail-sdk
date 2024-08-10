@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Isso está correto para manter a sintaxe moderna
+    "module": "commonjs", // Altere para commonjs para compatibilidade com Node.js
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist", // A saída compilada vai para a pasta dist
+    "rootDir": "./src", // A pasta src é onde o código-fonte reside
+    "moduleResolution": "node",
+    "types": ["vitest/globals"]
+  },
+  "include": ["src", "tests"], // Inclua as pastas src e tests na compilação
+  "exclude": ["node_modules", "dist"] // Exclua node_modules e dist da compilação
+}
