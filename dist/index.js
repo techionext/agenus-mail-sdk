@@ -1,5 +1,4 @@
 "use strict";
-// src/index.ts
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MailServiceFactory = exports.MailService = void 0;
 var MailService_1 = require("./MailService");
